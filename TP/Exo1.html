@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- Selectionner tous les élements de type A -->
+<!-- Remplacer l'attribut href par le lien suivant : http://estcequecestbientotleweekend.fr -->
+
+<main>
+    <p>Latius iam disseminata <a href="#">licentia onerosus bonis omnibus</a> Caesar nullum post haec adhibens modum orientis latera cuncta vexabat nec honoratis parcens nec urbium primatibus nec plebeiis.</p>
+    <p>Latius iam disseminata licentia onerosus bonis omnibus Caesar nullum post haec adhibens modum orientis latera cuncta vexabat nec honoratis parcens nec urbium primatibus nec plebeiis.</p>
+    <p>Latius iam disseminata licentia onerosus <a href="#">bonis omnibus Caesar</a> nullum post haec adhibens modum orientis latera cuncta vexabat nec honoratis parcens nec urbium primatibus nec plebeiis.</p>
+    <p>Latius iam disseminata licentia onerosus bonis omnibus Caesar nullum post haec adhibens modum orientis latera cuncta vexabat nec honoratis parcens nec urbium primatibus nec plebeiis.</p>
+    <p>Latius iam <a href="#">disseminata licentia onerosus</a> bonis omnibus Caesar nullum post haec adhibens modum orientis latera cuncta vexabat nec honoratis parcens nec urbium primatibus nec plebeiis.</p>
+    <p>Latius iam disseminata licentia onerosus bonis omnibus Caesar nullum post haec adhibens modum orientis latera cuncta vexabat nec honoratis parcens nec urbium primatibus nec plebeiis.</p>
+    <p>Latius iam disseminata licentia onerosus bonis omnibus Caesar nullum post haec adhibens modum orientis latera cuncta vexabat nec honoratis parcens nec urbium primatibus nec plebeiis.</p>
+</main>
+
+<script>
+
+    var a = document.querySelectorAll('a');
+    var http = "http://estcequecestbientotleweekend.fr";
+    for (var i = 0; i < a.length; i++)
+    {
+        a[i].href = http;
+    }
+</script>
+</body>
+</html>
